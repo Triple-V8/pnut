@@ -45,8 +45,8 @@ export function NavHeader() {
             </motion.div>
           ))}
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button variant="default" className="font-comic">Buy $PNUT</Button>
-          </motion.div>
+          <Link href="https://eclipse.fight.horse/launchpad/6Eo3V95XdnWrfjd68EaEsoxmVnMKFMonfPkj8iv2iT7o"> <Button variant="default" className="font-comic">Buy $PNUT</Button>
+          </Link></motion.div>
         </nav>
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
@@ -61,7 +61,7 @@ export function NavHeader() {
                   {item}
                 </Link>
               ))}
-              <Button variant="default">Buy $PNUT</Button>
+              <Link href="https://eclipse.fight.horse/launchpad/6Eo3V95XdnWrfjd68EaEsoxmVnMKFMonfPkj8iv2iT7o"> <Button variant="default">Buy $PNUT</Button> </Link>
             </div>
           </SheetContent>
         </Sheet>
